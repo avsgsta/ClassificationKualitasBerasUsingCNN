@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/asul</item>
+        <item>@font/baumans</item>
+        <item>@font/courier_prime_bold</item>
+        <item>@font/gayathri_bold</item>
+        <item>@font/harmattan</item>
+        <item>@font/poppins_semibold</item>
+        <item>@font/syne_medium</item>
+    </array>
+</resources>

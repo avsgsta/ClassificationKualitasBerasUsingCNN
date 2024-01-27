@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FECDA6"
+    tools:context=".AboutActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageView18"
+                android:layout_width="184dp"
+                android:layout_height="472dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_17" />
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:srcCompat="@drawable/group_18" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="92dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rectangle_15" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imageView20"
+                android:layout_alignEnd="@+id/imageView20"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="57dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.182"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/edukasi_beras" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="283dp"
+                android:layout_height="114dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="-9dp"
+                android:layout_marginTop="152dp"
+                android:layout_marginEnd="9dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.382"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/group_13" />
+
+            <!--            <TextView-->
+<!--                android:id="@+id/textView"-->
+<!--                android:layout_width="341dp"-->
+<!--                android:layout_height="653dp"-->
+<!--                android:layout_below="@+id/imageView22"-->
+<!--                android:layout_alignParentStart="true"-->
+<!--                android:layout_alignParentEnd="true"-->
+<!--                android:layout_marginStart="40dp"-->
+<!--                android:layout_marginTop="0dp"-->
+<!--                android:layout_marginEnd="30dp"-->
+<!--                android:background="#25D60E0E"-->
+<!--                android:fontFamily="@font/poppins_semibold"-->
+<!--                android:padding="20dp"-->
+<!--                android:text="Beras Bulog merupakan varietas beras yang diproduksi dan didistribusikan oleh Badan Urusan Logistik (BULOG) di Indonesia. Sebagai badan usaha milik negara yang fokus pada pengelolaan logistik pangan, BULOG memiliki peran sentral dalam menyediakan beras untuk kebutuhan konsumsi nasional. Beras Bulog dikenal atas kualitasnya yang unggul, memberikan jaminan akan beras berkualitas tinggi kepada konsumen. Ciri khasnya terletak pada butir-butir beras yang utuh, bulir yang panjang, dan tekstur yang pulen saat dimasak. Warna butir beras Bulog yang cerah dan bersih juga mencerminkan tingkat kebersihan dan pemrosesan yang baik. Kelembutan beras ini menjadi daya tarik tersendiri bagi para konsumen yang menghargai kualitas dalam pengalaman memasak dan menikmati hidangan berbasis beras. Proses seleksi beras Bulog yang ketat dan standar produksi yang dijaga dengan cermat menciptakan produk akhir yang konsisten dalam memberikan rasa lezat dan tekstur yang memuaskan."-->
+<!--                android:textAlignment="center"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16sp" />-->
+
+            <ImageView
+                android:id="@+id/myImageView"
+                android:layout_width="match_parent"
+                android:layout_height="1200dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="364dp"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="18dp"
+                android:adjustViewBounds="true" />
+
+            <ImageView
+                android:id="@+id/imageView31"
+                android:layout_width="wrap_content"
+                android:layout_height="682dp"
+                android:layout_below="@+id/imageView22"
+                android:layout_alignStart="@+id/imageView22"
+                android:layout_alignEnd="@+id/imageView22"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="14dp"
+                android:src="@drawable/border"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/buttonOpenlink"
+                android:layout_width="wrap_content"
+                android:layout_height="73dp"
+                android:layout_below="@+id/imageView31"
+                android:layout_alignStart="@+id/imageView31"
+                android:layout_alignEnd="@+id/imageView31"
+                android:layout_marginStart="78dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="72dp"
+                android:backgroundTint="#FFFFFF"
+                android:fontFamily="@font/syne_medium"
+                android:onClick="openExternalLink"
+                android:text="Klik Untuk Selengkapnya"
+                android:textAlignment="gravity"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="651dp"
+                android:layout_alignStart="@+id/imageView31"
+                android:layout_alignTop="@+id/imageView31"
+                android:layout_alignEnd="@+id/imageView31"
+                android:layout_marginStart="14dp"
+                android:layout_marginTop="11dp"
+                android:layout_marginEnd="18dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Beras Bulog merupakan varietas beras yang diproduksi dan didistribusikan oleh Badan Urusan Logistik (BULOG) di Indonesia. Sebagai badan usaha milik negara yang fokus pada pengelolaan logistik pangan, BULOG memiliki peran sentral dalam menyediakan beras untuk kebutuhan konsumsi nasional. Beras Bulog dikenal atas kualitasnya yang unggul, memberikan jaminan akan beras berkualitas tinggi kepada konsumen. Ciri khasnya terletak pada butir-butir beras yang utuh, bulir yang panjang, dan tekstur yang pulen saat dimasak. Warna butir beras Bulog yang cerah dan bersih juga mencerminkan tingkat kebersihan dan pemrosesan yang baik. Kelembutan beras ini menjadi daya tarik tersendiri bagi para konsumen yang menghargai kualitas dalam pengalaman memasak dan menikmati hidangan berbasis beras. Proses seleksi beras Bulog yang ketat dan standar produksi yang dijaga dengan cermat menciptakan produk akhir yang konsisten dalam memberikan rasa lezat dan tekstur yang memuaskan."
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/buttonOpenlink"
+                android:layout_alignEnd="@+id/buttonOpenlink"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="82dp"
+                android:layout_marginEnd="165dp"
+                android:fontFamily="@font/syne_medium"
+                android:text="Nama Pakar :" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="169dp"
+                android:layout_height="32dp"
+                android:layout_alignStart="@+id/buttonOpenlink"
+                android:layout_alignTop="@+id/buttonOpenlink"
+                android:layout_alignEnd="@+id/buttonOpenlink"
+                android:layout_marginStart="59dp"
+                android:layout_marginTop="81dp"
+                android:layout_marginEnd="-13dp"
+                android:fontFamily="@font/syne_medium"
+                android:text="Purwo Sudarmoko" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="396dp"
+                android:layout_height="66dp"
+                android:layout_below="@+id/buttonOpenlink"
+                android:layout_alignStart="@+id/buttonOpenlink"
+                android:layout_alignEnd="@+id/buttonOpenlink"
+                android:layout_marginStart="-87dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="-85dp"
+                android:fontFamily="@font/syne_medium"
+                android:text="Beliau adalah narasumber yang memberikan pengetahuan terkait penelitian kami "
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="358dp"
+                android:layout_height="167dp"
+                android:layout_below="@+id/textView6"
+                android:layout_alignStart="@+id/textView6"
+                android:layout_alignEnd="@+id/textView6"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="26dp"
+                app:srcCompat="@drawable/sertifikat" />
+
+            <ImageView
+                android:id="@+id/imageView32"
+                android:layout_width="match_parent"
+                android:layout_height="205dp"
+                android:layout_below="@+id/imageView25"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="-4dp"
+                app:srcCompat="@drawable/foto_sertifikat" />
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

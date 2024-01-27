@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen"
+    android:background="#FECDA6">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="194dp"
+        android:layout_height="448dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="215dp"
+        android:layout_marginBottom="283dp"
+        app:srcCompat="@drawable/group_17" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="311dp"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="-6dp"
+        app:srcCompat="@drawable/group_18" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="272dp"
+        android:layout_height="142dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="58dp"
+        android:layout_marginTop="278dp"
+        android:layout_marginEnd="81dp"
+        app:srcCompat="@drawable/group_13" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.Holo.Light.ProgressBar.Large.Inverse"
+        android:layout_width="100dp"
+        android:layout_height="235dp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="151dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="85dp"
+        android:indeterminateTint="#800F0F"
+        android:indeterminateTintMode="src_in"
+        android:isScrollContainer="false"
+        android:progressTint="#FFFEFE" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/baumans"
+        android:textColor="@color/black"
+        android:text=" @Copyright By Halcyon.All Rights Reserved"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+</RelativeLayout>

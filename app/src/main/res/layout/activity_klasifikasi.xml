@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KlasifikasiActivity"
+    android:background="#FECDA6">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="255dp"
+        android:layout_height="239dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/rectangle_15" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="177dp"
+        android:layout_height="448dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/group_17" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/group_18" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="130dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="@+id/imageView10"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView10"
+        app:srcCompat="@drawable/klasifikasi" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="255dp"
+        android:layout_height="239dp"
+        android:layout_above="@+id/imageView15"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toTopOf="@+id/imageView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908"
+        app:srcCompat="@drawable/group_19" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="145dp"
+        android:layout_height="56dp"
+        android:layout_alignStart="@+id/imageView14"
+        android:layout_alignTop="@+id/imageView14"
+        android:layout_alignEnd="@+id/imageView14"
+        android:layout_alignBottom="@+id/imageView14"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/syne_medium"
+        android:text="Pilih Kamera"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:layout_constraintTop_toTopOf="@+id/imageView14" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="260dp"
+        android:layout_height="236dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/imageView14"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView14"
+        app:srcCompat="@drawable/group_21" />
+
+    <Button
+        android:id="@+id/btnGalery"
+        android:layout_width="142dp"
+        android:layout_height="58dp"
+        android:layout_alignStart="@+id/imageView15"
+        android:layout_alignTop="@+id/imageView15"
+        android:layout_alignEnd="@+id/imageView15"
+        android:layout_alignBottom="@+id/imageView15"
+        android:layout_marginTop="136dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/syne_medium"
+        android:text="Pilih Galery"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imageView15"
+        app:layout_constraintHorizontal_bias="0.542"
+        app:layout_constraintStart_toStartOf="@+id/imageView15"
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
+</androidx.constraintlayout.widget.ConstraintLayout>
